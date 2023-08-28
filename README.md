@@ -21,4 +21,4 @@ I plan to have folders organized in this repo into something like this:
 [^first]: just messing around ISO/OSI layers or simple scripts.
 [^second]: services written by myself.
 [^third]: website interfaces.
-[^fouth]: just beign a lil ambitious here isnt it?
+[^fouth]: just beign a lil ambitious are we?
