@@ -3,11 +3,11 @@ const app = express();
 
 // ENDPOINTS:
 app.get('/tmx37-api/isAlive', (req, res) => {
-    res.json({ message: 'API is alive, you  entered ' + req });
+    res.json({ message: 'API is alive'});
 });
 
 // SERVER CONFIGURATION
-const port = process.env.port || 3000; //port can be modified accordingly to use
+const port = process.env.port || 8080; //port can be modified accordingly to use
 app.listen(port, () => {
-    console.log('Server is running on port ${port}');
+    console.log('Server is running on port ' + port);
 });
