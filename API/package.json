@@ -1,0 +1,14 @@
+{
+  "name": "tmx37_api",
+  "version": "1.0.0",
+  "description": "API to handle my custom service calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "Express": "^3.0.1"
+  }
+}
