@@ -3,7 +3,18 @@ const app = express();
 
 // ENDPOINTS:
 app.get('/tmx37-api/isAlive', (req, res) => {
-    res.json({ message: 'API is alive'});
+    const clientIP = req.ip;
+    const clientHostname = req.hostname;
+    const clientURL = req.url;
+
+    console.log('GET-REQUEST from: \n IP: ' + clientIP + 'Hostname: ' + hostname + ' by URL: ' + clientURL);
+
+    res.json(
+        {
+            message: 'API is alive'
+
+        }
+    );
 });
 
 // SERVER CONFIGURATION
