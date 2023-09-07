@@ -7,12 +7,11 @@ app.get('/tmx37-api/isAlive', (req, res) => {
     const clientHostname = req.hostname;
     const clientURL = req.url;
 
-    console.log('GET-REQUEST from: \n>IP: ' + clientIP + '\n>Hostname: ' + clientHostname + '\n>by URL: ' + clientURL);
+    console.log('GET-REQUEST from: \n   >IP: ' + clientIP + '\n    >Hostname: ' + clientHostname + '\n>    by URL: ' + clientURL);
 
     res.json(
         {
             message: 'API is alive'
-
         }
     );
 });
