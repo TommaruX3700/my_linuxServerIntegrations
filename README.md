@@ -1,6 +1,6 @@
 # my_Network_Code
 
-Collection of my linux server projects.
+Collection of my network-based coding projects.
 
 ## Logs:
 ---
