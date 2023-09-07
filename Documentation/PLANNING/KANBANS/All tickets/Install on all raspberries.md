@@ -1,0 +1,1 @@
+SOLO QUANDO È PRONTA UNA SOLUZIONE CHE PERMETTA UPDATE ALL'API "centralizzata" (senza dovere mettere mano direttamtne alle directories), ovvero sistema di distribuzione software e messa in opera automatizzata

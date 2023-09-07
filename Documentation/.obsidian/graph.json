@@ -1,0 +1,72 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"PLANNING/KANBANS/All tickets\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14534098
+      }
+    },
+    {
+      "query": "path:PLANNING/KANBANS  ",
+      "color": {
+        "a": 1,
+        "rgb": 14369735
+      }
+    },
+    {
+      "query": "path:PLANNING/Notes  ",
+      "color": {
+        "a": 1,
+        "rgb": 16442624
+      }
+    },
+    {
+      "query": "path:NET-GRAPH/Net-Devices  ",
+      "color": {
+        "a": 1,
+        "rgb": 2551563
+      }
+    },
+    {
+      "query": "path:NET-GRAPH/Servers  ",
+      "color": {
+        "a": 1,
+        "rgb": 15468809
+      }
+    },
+    {
+      "query": "path:NET-GRAPH/Clients  ",
+      "color": {
+        "a": 1,
+        "rgb": 15853833
+      }
+    },
+    {
+      "query": "path:PLANNING/PROJECTS  ",
+      "color": {
+        "a": 1,
+        "rgb": 5408992
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 2.44791666666667,
+  "lineSizeMultiplier": 2.98385416666667,
+  "collapse-forces": true,
+  "centerStrength": 0.432291666666667,
+  "repelStrength": 13.3333333333333,
+  "linkStrength": 1,
+  "linkDistance": 116,
+  "scale": 0.3628873693012138,
+  "close": true
+}

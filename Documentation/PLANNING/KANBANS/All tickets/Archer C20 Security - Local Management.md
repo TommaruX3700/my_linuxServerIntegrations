@@ -1,0 +1,1 @@
+Aggiungere sono i pc della rete come possibili per accedere al pannello di configurazione del router (tramite indirizzo MAC).

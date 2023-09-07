@@ -1,0 +1,1 @@
+set up static ip on eth0 interface with address and gateway on 192.168.1.30/24

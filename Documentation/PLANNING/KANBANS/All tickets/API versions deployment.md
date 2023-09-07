@@ -1,0 +1,1 @@
+Find a system to automate this task, event the new script loading.

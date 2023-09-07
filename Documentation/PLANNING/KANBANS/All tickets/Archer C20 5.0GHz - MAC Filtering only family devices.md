@@ -1,0 +1,1 @@
+Abilitare filtro per MAC address e abilitare alla connessione solamente i dispositivi riconosciuti della famiglia.
