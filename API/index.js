@@ -4,7 +4,9 @@
 //#region IMPORT
 import { 
             tLog,
-            readTextFile
+            readTextFile,
+            outputDate,
+            outputTime
         } from './functions';
 
 //#endregion
@@ -17,27 +19,20 @@ const app = express();
 
 //#region ENDPOINTS:
 //#region GET-REQUESTS
-//returns client IP and informations 
-app.get('/tmx37-api/isAlive', (req, res) => {
-    const clientIP = req.ip;
-    const clientHostname = req.hostname;
-    const clientURL = req.url;
-    console.log('##########\n> GET-REQUEST from: \n    - IP: ' + clientIP + '\n    - Hostname: ' + clientHostname + '\n    - by URL: ' + clientURL);
-    res.json(
-        {
-            message: 'API is alive'
-        }
-    );
-});
 
-//return API version
-app.get('/tmx37-api', (req, res) => {
-    const pathFile = 'Version';
+app.get('/tmx37-api', (req, res) => { //Returns API basic informations as json
+    const versionFile = 'Version';
     res.json(
         {
-            message: readTextFile(pathFile)
+            API_VERSION: readTextFile(versionFile),
+            date: outputDate(),
+            message: 'API is alive',
+            clientIP: req.ip,
+            clientHostname: req.hostname,
+            clientURL: req.url
         }
     );
+    tLog(outputTime + " - " + "GET-REQUEST " + req.url + " FROM " + req.ip + ", " + req.hostname);
 });
 
 //#endregion

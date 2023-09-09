@@ -1,27 +1,26 @@
 //Author: tmx37
 //Description: this file contains async functions that are used directly by tmx37-API
 
+import { time } from 'console';
+
 //#region GLOBAL VARIABLES
 const fs = require('fs')
-
-const logIntro = buildLogIntro();
 var logCurrentLine = 1;
-
-var reader = new FileReader();
 
 //#endregion
 
 //#region EXPORT
-export async function tLog(logMessage = "") {
-    const pathToCheck = getDate();
-
+export async function tLog(logMessage) {
+    const pathToCheck = getDate(); //log files are named after the date when they are created
+    message = String(logMessage)
     //File found
     if (fs.existsSync(pathToCheck) == true) {
-        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError);
+        fs.appendFile(pathToCheck, String(logCurrentLine) + ". " + message + "\n", callBackError);
     } else {
         //File not found
+        const logIntro = buildLogIntro();
         fs.writeFile(pathToCheck, logIntro, callBackError)
-        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError)
+        fs.appendFile(pathToCheck, String(logCurrentLine) + ". " + message + "\n", callBackError)
     }
     logCurrentLine+=1;
 }
@@ -33,16 +32,33 @@ export function readTextFile(filePath) {
     })
 }
 
+export function outputDate(){
+    return getDate();
+}
+
+export function outputTime(){
+    return getTime();
+}
+
 //#endregion
 
 //#region FUNCTIONS
-function getDate () {
+function getDate () { 
     var outDate = "";
-    const today = new Date();
-    const day = String(today.getDate()).padStart(2, '0');
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const year = today.getFullYear();
+    const date = new Date();
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const year = date.getFullYear();
     return outDate = year + month + day;
+}
+
+function getTime () {
+    var outTime = "";
+    const time = new Date(); 
+    const hour = time.getHours();
+    const minutes = time.getMinutes();
+    const seconds = time.getSeconds();
+    return outTime = hour + ":" + minutes + ":" + seconds;
 }
 
 function buildLogIntro(){
