@@ -24,7 +24,6 @@ export async function tLog(logMessage = "") {
         fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError)
     }
     logCurrentLine+=1;
-
 }
 
 export function readTextFile(filePath) {
