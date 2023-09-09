@@ -2,7 +2,10 @@
 //Description: multipurpose API for home network developer projects
 
 //#region IMPORT
-import { tLog, readTextFile } from './functions';
+import { 
+            tLog,
+            readTextFile
+        } from './functions';
 
 //#endregion
 
@@ -29,8 +32,12 @@ app.get('/tmx37-api/isAlive', (req, res) => {
 
 //return API version
 app.get('/tmx37-api', (req, res) => {
-    const vFile = 'Version';
-    readTextFile(vFile);
+    const pathFile = 'Version';
+    res.json(
+        {
+            message: readTextFile(pathFile)
+        }
+    );
 });
 
 //#endregion
