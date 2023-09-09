@@ -17,11 +17,11 @@ export async function tLog(logMessage = "") {
 
     //File found
     if (fs.existsSync(pathToCheck) == true) {
-        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError(err));
+        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError);
     } else {
         //File not found
-        fs.writeFile(pathToCheck, logIntro, callBackError(err))
-        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError(err))
+        fs.writeFile(pathToCheck, logIntro, callBackError)
+        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError)
     }
     logCurrentLine+=1;
 
