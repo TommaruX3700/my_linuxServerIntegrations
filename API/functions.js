@@ -9,8 +9,6 @@ var logCurrentLine = 1;
 
 var reader = new FileReader();
 
-
-
 //#endregion
 
 //#region EXPORT
@@ -19,11 +17,11 @@ export async function tLog(logMessage = "") {
 
     //File found
     if (fs.existsSync(pathToCheck) == true) {
-        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage, callBackError(err));
+        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError(err));
     } else {
         //File not found
         fs.writeFile(pathToCheck, logIntro, callBackError(err))
-        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage, callBackError(err))
+        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage + "\n", callBackError(err))
     }
     logCurrentLine+=1;
 
