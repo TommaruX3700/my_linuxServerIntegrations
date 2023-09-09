@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## BACKLOG
 
-- [ ] [[Develop base API]]
 - [ ] [[API versions deployment]]
 - [ ] [[Define API endpoints]]
 - [ ] [[Install on all raspberries]]
@@ -14,11 +13,12 @@ kanban-plugin: basic
 
 ## SUSPENDED
 
+- [ ] [[Define a LOG system]]
 
 
 ## DOING
 
-- [ ] [[Define a LOG system]]
+- [ ] [[Develop base API]]
 
 
 ## IN REVIEW
