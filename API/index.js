@@ -1,5 +1,5 @@
 //Author: tmx37
-//Description: multipurpose API for home network developer projects
+//Description: Multipurpose API for home network developer projects
 
 //#region IMPORT
 import { 

@@ -1,5 +1,5 @@
 //Author: tmx37
-//Description: this file contains async functions that are used directly by tmx37-API
+//Description: This file contains async functions that are used directly by tmx37-API
 
 import { time } from 'console';
 
