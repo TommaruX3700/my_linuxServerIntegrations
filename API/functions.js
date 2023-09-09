@@ -1,8 +1,6 @@
 //Author: tmx37
 //Description: This file contains async functions that are used directly by tmx37-API
 
-import { time } from 'console';
-
 //#region GLOBAL VARIABLES
 const fs = require('fs')
 var logCurrentLine = 1;
@@ -13,8 +11,8 @@ var logCurrentLine = 1;
 export async function tLog(logMessage) {
     const pathToCheck = getDate(); //log files are named after the date when they are created
     message = String(logMessage)
-    //File found
     if (fs.existsSync(pathToCheck) == true) {
+        //File found
         fs.appendFile(pathToCheck, String(logCurrentLine) + ". " + message + "\n", callBackError);
     } else {
         //File not found

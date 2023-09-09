@@ -32,7 +32,7 @@ app.get('/tmx37-api', (req, res) => { //Returns API basic informations as json
             clientURL: req.url
         }
     );
-    tLog(outputTime + " - " + "GET-REQUEST " + req.url + " FROM " + req.ip + ", " + req.hostname);
+    tLog("GET-REQUEST " + req.url + " FROM " + req.ip + ", " + req.hostname + " AT " + outputTime());
 });
 
 //#endregion
