@@ -3,30 +3,30 @@
 
 //#region GLOBAL VARIABLES
 const fs = require('fs')
+
+const logIntro = buildLogIntro();
+var logCurrentLine = 1;
+
 var reader = new FileReader();
+
+
 
 //#endregion
 
 //#region EXPORT
 export async function tLog(logMessage = "") {
-    //TODO:
-    //      check if log with actual date exists
-    //          if yes, append message to it
-    //          if not, create new file with actual date, append description message and input message to it 
-    
-    const actualDate = Date.
+    const pathToCheck = getDate();
 
-    try {
-        //File found
-        fs.readFile(actualDate);
-        fs.appendFile(actualDate, logMessage, function (err) {if(err) throw err;});
-
-    } catch {
+    //File found
+    if (fs.existsSync(pathToCheck) == true) {
+        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage, callBackError(err));
+    } else {
         //File not found
-        fs.writeFile(actualDate, logIntro, function(err) {if(err) throw err;})
-        fs.appendFile(actualDate, logMessage, function(err) {if(err) throw err;})
+        fs.writeFile(pathToCheck, logIntro, callBackError(err))
+        fs.appendFile(pathToCheck, String(logCurrentLine) + " " + logMessage, callBackError(err))
     }
-    
+    logCurrentLine+=1;
+
 }
 
 export function readTextFile(filePath) {
@@ -35,10 +35,26 @@ export function readTextFile(filePath) {
         return data;
     })
 }
-  
 
 //#endregion
 
 //#region FUNCTIONS
+function getDate () {
+    var outDate = "";
+    const today = new Date();
+    const day = String(today.getDate()).padStart(2, '0');
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const year = today.getFullYear();
+    return outDate = year + month + day;
+}
+
+function buildLogIntro(){
+    const outIntro = "TMX37_API,  " + getDate() + "\nLog system started \n###############################################\n"
+    return outIntro;
+}
+
+function callBackError (error) {
+    if(error) throw error;
+}
 
 //#endregion
