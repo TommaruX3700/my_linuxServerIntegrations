@@ -2,13 +2,17 @@
 //Description: Multipurpose API for home network developer projects
 
 //#region IMPORT
-await import ('./modules/functions.mjs');
-
+const functions = await import('./modules/functions.mjs');
+import('./modules/functions.mjs').then((functions) => {
+    outputDate(),
+    readTextFile(),
+    outputTime()
+});
 //#endregion
 
 //#region GLOBAL VARIABLES
 const express = require('express');
-const { outputDate } = require('./modules/functions.mjs');
+const { outputDate, readTextFile, outputTime } = require('./modules/functions.mjs');
 const app = express();
 
 //#endregion
