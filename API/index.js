@@ -2,17 +2,13 @@
 //Description: Multipurpose API for home network developer projects
 
 //#region IMPORT
-import { 
-            tLog,
-            readTextFile,
-            outputDate,
-            outputTime
-        } from './functions';
+await import ('./modules/functions.mjs');
 
 //#endregion
 
 //#region GLOBAL VARIABLES
 const express = require('express');
+const { outputDate } = require('./modules/functions.mjs');
 const app = express();
 
 //#endregion
