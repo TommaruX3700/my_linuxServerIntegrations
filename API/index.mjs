@@ -1,7 +1,6 @@
 //Author: tmx37
 //Description: Multipurpose API for home network developer projects
 
-
 //#region IMPORT
 import express from 'express';
 import { readTextFile, outputDate, outputTime, tLog } from './modules/functions.mjs';
