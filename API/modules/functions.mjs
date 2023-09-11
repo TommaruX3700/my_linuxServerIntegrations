@@ -15,11 +15,11 @@ const logFile = logPath + getDate() + '.txt'; //log files are named after the da
 //#region EXPORT
 export async function tLog(logMessage) {
     const message = String(logMessage)
-    if (await fs.existsSync(logFile) == true) {
+    if (fs.existsSync(logFile) == true) {
         //File found
         if (logCurrentLine == 1) {
             const logIntro = buildLogIntro();
-            fs.appendFile(logFile, logIntro + String(logCurrentLine) + ". " + message + "\n", callBackError);
+             fs.appendFile(logFile, "\n" + logIntro + String(logCurrentLine) + ". " + message + "\n", callBackError);
         } else{
             fs.appendFile(logFile, String(logCurrentLine) + ". " + message + "\n", callBackError);
         }
@@ -27,8 +27,8 @@ export async function tLog(logMessage) {
     else {
         //File not found
         const logIntro = buildLogIntro();
-        fs.writeFile(logFile, logIntro, callBackError)
-        fs.appendFile(logFile, String(logCurrentLine) + ". " + message + "\n", callBackError)
+        logCurrentLine = 1;
+        fs.writeFile(logFile, logIntro + "\n" + String(logCurrentLine) + ". " + message + "\n", callBackError);
     }
     logCurrentLine+=1;
 }

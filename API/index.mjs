@@ -15,7 +15,8 @@ const version = await readTextFile(vFile).then((output) => {return output;}).cat
 //#region ENDPOINTS:
 //#region GET-REQUESTS
 
-app.get('/tmx37-api', (req, res) => { //Returns API basic informations as json
+//Returns API basic informations as json
+app.get('/tmx37-api', (req, res) => { 
     res.json(
         {
             API_VERSION: version,
