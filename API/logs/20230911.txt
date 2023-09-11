@@ -386,3 +386,25 @@ TMX37_API, started on 20230911 at 20:45:8
 5. GET-REQUEST /tmx37-api FROM ::ffff:127.0.0.1, localhost AT 20:45:10
 6. GET-REQUEST /tmx37-api FROM ::ffff:127.0.0.1, localhost AT 20:45:10
 7. GET-REQUEST /tmx37-api FROM ::ffff:127.0.0.1, localhost AT 20:45:10
+
+TMX37_API, started on 20230911 at 20:51:51
+###############################################
+1. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:51
+2. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:51
+3. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:52
+4. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:52
+5. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:52
+6. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:52
+7. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:53
+8. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:57
+9. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:57
+10. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:51:57
+
+TMX37_API, started on 20230911 at 20:52:15
+###############################################
+1. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:52:15
+2. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:52:15
+3. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:52:15
+4. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:52:16
+5. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:52:16
+6. GET-REQUEST '/tmx37-api' FROM ::ffff:127.0.0.1, 'localhost' AT 20:52:16

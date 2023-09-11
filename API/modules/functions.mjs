@@ -19,8 +19,7 @@ export async function tLog(logMessage) {
         //File found
         if (logCurrentLine == 1) {
             const logIntro = buildLogIntro();
-            fs.appendFile(logFile, logIntro, callBackError);
-            fs.appendFile(logFile, String(logCurrentLine) + ". " + message + "\n", callBackError);
+            fs.appendFile(logFile, logIntro + String(logCurrentLine) + ". " + message + "\n", callBackError);
         } else{
             fs.appendFile(logFile, String(logCurrentLine) + ". " + message + "\n", callBackError);
         }
