@@ -1,19 +1,15 @@
 //Author: tmx37
 //Description: Multipurpose API for home network developer projects
 
-//#region IMPORT
-const functions = await import('./modules/functions.mjs');
-import('./modules/functions.mjs').then((functions) => {
-    outputDate(),
-    readTextFile(),
-    outputTime()
-});
-//#endregion
 
-//#region GLOBAL VARIABLES
-const express = require('express');
-const { outputDate, readTextFile, outputTime } = require('./modules/functions.mjs');
+//#region IMPORT
+import express from 'express';
+import { readTextFile, outputDate, outputTime, tLog } from './modules/functions.mjs';
+
 const app = express();
+
+const vFile = './Version';
+const version = await readTextFile(vFile).then((output) => {return output;}).catch((err) => {console.error("Cant find version")});
 
 //#endregion
 
@@ -21,10 +17,9 @@ const app = express();
 //#region GET-REQUESTS
 
 app.get('/tmx37-api', (req, res) => { //Returns API basic informations as json
-    const versionFile = 'Version';
     res.json(
         {
-            API_VERSION: readTextFile(versionFile),
+            API_VERSION: version,
             date: outputDate(),
             message: 'API is alive',
             clientIP: req.ip,
@@ -32,7 +27,7 @@ app.get('/tmx37-api', (req, res) => { //Returns API basic informations as json
             clientURL: req.url
         }
     );
-    tLog("GET-REQUEST " + req.url + " FROM " + req.ip + ", " + req.hostname + " AT " + outputTime());
+    tLog("GET-REQUEST '" + req.url + "' FROM " + req.ip + ", '" + req.hostname + "' AT " + outputTime());
 });
 
 //#endregion
@@ -41,6 +36,7 @@ app.get('/tmx37-api', (req, res) => { //Returns API basic informations as json
 
 //#region NODE_CONFIGURATION
 const port = process.env.port || 8080; //port can be modified accordingly to use
+
 app.listen(port, () => {
     console.log('Server is running on port ' + port);
 });
