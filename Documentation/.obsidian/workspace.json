@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PLANNING/KANBANS/All tickets/Develop base API.md",
+                "file": "PLANNING/KANBANS/All tickets/Define API endpoints.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d62166287a98d5f5",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PLANNING/KANBANS/All tickets/Develop base API.md",
+                "file": "PLANNING/KANBANS/All tickets/Define API endpoints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PLANNING/KANBANS/All tickets/Develop base API.md",
+                "file": "PLANNING/KANBANS/All tickets/Define API endpoints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PLANNING/KANBANS/All tickets/Develop base API.md"
+                "file": "PLANNING/KANBANS/All tickets/Define API endpoints.md"
               }
             }
           }
@@ -149,12 +150,13 @@
   "active": "8a6cd0f050393718",
   "lastOpenFiles": [
     "PLANNING/KANBANS/SOFTWARE/REST_API - KANBAN.md",
+    "README.md",
+    "PLANNING/KANBANS/All tickets/Develop base API.md",
     "PLANNING/KANBANS/All tickets/Define a LOG system.md",
     "PLANNING/KANBANS/SOFTWARE/Server_surveillance - KANBAN.md",
     "PLANNING/PROJECTS/Project-notes/REST API with NODE.JS- PROJECT.md",
     "PLANNING/KANBANS/All tickets/Define API endpoints.md",
     "NET-GRAPH/NET-GRAPH.md",
-    "README.md",
     "PLANNING/Project planning.md"
   ]
 }

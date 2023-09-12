@@ -20,8 +20,8 @@ app.get('/tmx37-api', (req, res) => {
     res.json(
         {
             API_VERSION: version,
-            date: outputDate(),
             message: 'API is alive',
+            date: outputDate(),
             clientIP: req.ip,
             clientHostname: req.hostname,
             clientURL: req.url

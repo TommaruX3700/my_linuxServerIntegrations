@@ -7,18 +7,16 @@ kanban-plugin: basic
 ## BACKLOG
 
 - [ ] [[API versions deployment]]
-- [ ] [[Define API endpoints]]
 - [ ] [[Install on all raspberries]]
 
 
 ## SUSPENDED
 
-- [ ] [[Define a LOG system]]
 
 
 ## DOING
 
-- [ ] [[Develop base API]]
+- [ ] [[Define API endpoints]]
 
 
 ## IN REVIEW
@@ -28,6 +26,8 @@ kanban-plugin: basic
 ## DONE
 
 - [ ] [[Node.js install on both computer (for development)]]
+- [ ] [[Define a LOG system]]
+- [ ] [[Develop base API]]
 
 
 
