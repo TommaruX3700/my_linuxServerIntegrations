@@ -34,6 +34,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","new-note-folder":"PLANNING/KANBANS/All tickets"}
 ```
 %%

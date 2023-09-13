@@ -24,7 +24,7 @@ kanban-plugin: basic
 ## DONE
 
 **Complete**
-- [x] [[Set up Static IP]]
+
 
 
 

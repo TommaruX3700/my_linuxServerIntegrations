@@ -31,8 +31,6 @@ kanban-plugin: basic
 
 ## Archive
 
-- [x] [[Set up Static IP]]
-
 %% kanban:settings
 ```
 {"kanban-plugin":"basic"}
