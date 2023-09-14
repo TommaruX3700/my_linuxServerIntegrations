@@ -3,11 +3,18 @@
 Collection of my network-based coding projects.
 
 ## NB: 
-Launch node.js with
+(In the index.js folder), launch Node.js scripts with
 
 ``` shell
 node --experimental-modules index.mjs
 ```
+
+(In the index.js folder), launch React scripts with
+
+``` shell
+npm start
+```
+
 
 ## Logs:
 ---
