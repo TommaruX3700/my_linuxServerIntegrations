@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "myChat - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myChat - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myChat - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myChat - PROJECT.md"
+                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md"
               }
             }
           },
@@ -159,7 +159,8 @@
   "active": "1ac1a2fd55402e23",
   "lastOpenFiles": [
     "PLANNING/PROJECTS/Software Projects.md",
-    "myChat - PROJECT.md",
+    "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
+    "PLANNING/PROJECTS/Project-notes/myChat - PROJECT.md",
     "PLANNING/KANBANS/DEVICES/pi3 ~ DB and Services - KANBAN.md",
     "PLANNING/KANBANS/DEVICES/pi2 ~ NAS server - KANBAN.md",
     "PLANNING/KANBANS/All tickets/Set up Static IP.md",
