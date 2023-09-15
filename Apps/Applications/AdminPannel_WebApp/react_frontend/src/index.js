@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+//TODO: ADD react-draggable module to implement drag&drop features
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

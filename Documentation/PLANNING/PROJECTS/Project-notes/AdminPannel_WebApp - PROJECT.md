@@ -9,6 +9,10 @@ React:
 - pagina per programmare la pagina principale, programmare gli scripts e posizione degli elementi.
 - 
 
+### LocalDB
+MongoDB: 
+- database per gestire query e flussi di informazione tra applicazioni in locale, tramite queries di queste direttamente al DB.
+
 ### BackEnd
 Node.js: 
 - comunica con il DB di rete per info come controllo psw di login alla pagina, recupero altre informazioni, etc
@@ -16,3 +20,4 @@ Node.js:
 - lancia comandi tramite ssh
 - lancia script tramite pulsanti 
 - è programmabile (interfaccia con pulsantoni per automatizzare il lancio di script etc, per fase di testing)
+

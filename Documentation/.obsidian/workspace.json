@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md"
+                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md"
               }
             }
           },
@@ -158,15 +158,18 @@
   },
   "active": "1ac1a2fd55402e23",
   "lastOpenFiles": [
-    "PLANNING/PROJECTS/Software Projects.md",
+    "PLANNING/PROJECTS/Project-notes/APIs Architecture with NODE.JS - PROJECT.md",
+    "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
     "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
+    "PLANNING/PROJECTS/Software Projects.md",
+    "PLANNING/Project planning.md",
+    "PLANNING/PROJECTS/Project-notes/Versioning Deployment Software - PROJECT.md",
+    "PLANNING/PROJECTS/Project-notes/Server_surveillance_script - PROJECT.md",
     "PLANNING/PROJECTS/Project-notes/myChat - PROJECT.md",
     "PLANNING/KANBANS/DEVICES/pi3 ~ DB and Services - KANBAN.md",
     "PLANNING/KANBANS/DEVICES/pi2 ~ NAS server - KANBAN.md",
     "PLANNING/KANBANS/All tickets/Set up Static IP.md",
-    "PLANNING/PROJECTS/Project-notes/APIs Architecture with NODE.JS - PROJECT.md",
     "README.md",
-    "PLANNING/Project planning.md",
     "NET-GRAPH/NET-GRAPH.md",
     "PLANNING/KANBANS/SOFTWARE/Untitled Kanban.md",
     "PLANNING/KANBANS/SOFTWARE/DB&DATA_API - KANBAN.md",
