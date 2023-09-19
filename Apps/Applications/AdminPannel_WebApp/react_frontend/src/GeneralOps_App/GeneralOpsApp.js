@@ -7,7 +7,7 @@ function GeneralOpsApp() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          APP1
+          GeneralOps_WebApp
         </p>
       </header>
     </div>

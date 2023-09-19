@@ -7,7 +7,7 @@ function SpecMonitorApp() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          APP1
+          SpecMonitor_WebApp
         </p>
       </header>
     </div>
