@@ -1,7 +1,7 @@
 import logo from '../media/logo.svg';
-import './GeneralOpsApp.css';
+import './SpecMonitor_App.css';
 
-function GeneralOpsApp() {
+function SpecMonitorApp() {
   return (
     <div className="App">
       <header className="App-header">
@@ -14,4 +14,4 @@ function GeneralOpsApp() {
   );
 }
 
-export default GeneralOpsApp;
+export default SpecMonitorApp;

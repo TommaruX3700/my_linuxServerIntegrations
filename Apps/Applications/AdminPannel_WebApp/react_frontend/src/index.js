@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom/client';
 
 import './index.css';
 import GeneralOpsApp from './GeneralOps_App/GeneralOpsApp.js';
+import SpecMonitorApp from './SpecMonitor_App/SpecMonitor_App.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,8 +13,8 @@ root.render(
   <React.StrictMode>
     <h1>AdminPannel_WebApp</h1>
     <section class="layout">
-    <div class="sidebar">1</div>
-    <div class="body"><GeneralOpsApp /></div>
+      <div class="sidebar"><SpecMonitorApp/></div>
+      <div class="body"><GeneralOpsApp/></div> 
     </section>
   </React.StrictMode>
 );
