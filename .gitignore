@@ -1,3 +1,7 @@
+#.vscode files
+.vscode/
+
+#APIs folder
 API/logs/*.txt
 API/logs/20230911.txt
 
