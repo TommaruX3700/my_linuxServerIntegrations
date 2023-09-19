@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.layout {
+  width: auto;
+  height: auto;
+
+  display: grid;
+  grid:
+    "sidebar body" 1fr
+    / 30% 70%;
+  gap: 8px;
+}
+
+.sidebar { grid-area: sidebar; }
+.body { grid-area: body; }

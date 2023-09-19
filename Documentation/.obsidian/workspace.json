@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "d62166287a98d5f5",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
+                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md"
+                "file": "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md"
               }
             }
           },
@@ -158,8 +159,8 @@
   },
   "active": "1ac1a2fd55402e23",
   "lastOpenFiles": [
-    "PLANNING/PROJECTS/Project-notes/APIs Architecture with NODE.JS - PROJECT.md",
     "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
+    "PLANNING/PROJECTS/Project-notes/APIs Architecture with NODE.JS - PROJECT.md",
     "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
     "PLANNING/PROJECTS/Software Projects.md",
     "PLANNING/Project planning.md",
