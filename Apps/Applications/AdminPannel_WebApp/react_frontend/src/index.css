@@ -5,7 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(134, 226, 250);
+  margin-left: 8px;
+  margin-right: 16px;
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -17,6 +22,10 @@ code {
   height: auto;
   display: grid;
   grid: "title version" 1fr / 70% 30%;
+  gap: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  
 }
 
 .webAppLayout {
@@ -25,21 +34,55 @@ code {
   display: grid;
   grid: "sidebar body" 1fr / 30% 70%;
   gap: 8px;
+  margin-bottom: 8px;
 }
 
 .title { 
   grid-area: title;
   align-content: center;
   text-align: center;
+  font-size: calc(5px + 2vmin);
   vertical-align: center;
+  
+  
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+
 .version { 
   grid-area: version; 
   align-content: center;
   text-align: center;
+  font-size: calc(5px + 2vmin);
   vertical-align: center;
+  
+  
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 }
 
-.sidebar { grid-area: sidebar; }
-.body { grid-area: body; }
+.sidebar { 
+  grid-area: sidebar; 
+}
+
+.body { 
+  grid-area: body; 
+}
+
+.coolBackground {
+  background: rgba( 255, 255, 255, 0.5 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
