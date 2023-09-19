@@ -12,13 +12,33 @@ code {
     monospace;
 }
 
-.layout {
+.headerLayout {
   width: auto;
   height: auto;
+  display: grid;
+  grid: "title version" 1fr / 70% 30%;
+}
 
+.webAppLayout {
+  width: auto;
+  height: auto;
   display: grid;
   grid: "sidebar body" 1fr / 30% 70%;
   gap: 8px;
+}
+
+.title { 
+  grid-area: title;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+}
+.version { 
+  grid-area: version; 
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+
 }
 
 .sidebar { grid-area: sidebar; }

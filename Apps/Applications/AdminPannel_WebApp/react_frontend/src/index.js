@@ -11,8 +11,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>AdminPannel_WebApp</h1>
-    <section class="layout">
+    <section class="headerLayout">
+      <div class="title"><h1>AdminPannel_WebApp</h1></div>
+      <div class="version">Version: 0.0.0</div>
+    </section>
+    <section class="webAppLayout">
       <div class="sidebar"><SpecMonitorApp/></div>
       <div class="body"><GeneralOpsApp/></div> 
     </section>
