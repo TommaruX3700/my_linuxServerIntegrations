@@ -5,12 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(134, 226, 250);
+  width: auto;
+  height: auto;
+  background-image: url('./media/prism-background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   margin-left: 8px;
   margin-right: 16px;
 
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -78,11 +82,4 @@ code {
   grid-area: body; 
 }
 
-.coolBackground {
-  background: rgba( 255, 255, 255, 0.5 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4.5px );
-  -webkit-backdrop-filter: blur( 4.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
+
