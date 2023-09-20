@@ -1,22 +1,10 @@
 .SpecMonitorApp {
-    text-align: center;
-    background: rgba( 255, 255, 255, 0.5 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4.5px );
-    -webkit-backdrop-filter: blur( 4.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-  }
-  
-  .App-logo {
-    height: 20vmin;
-    pointer-events: none;
-  }
+  text-align: center;
+  height: 100vh;
 
+  }
   
   .App-header {
-    
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +13,3 @@
     color: black;
   }
   
-  .App-link {
-    color: #61dafb;
-  }

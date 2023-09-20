@@ -1,25 +1,27 @@
 body {
+  /* height: 100vh; */
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   width: auto;
   height: auto;
+
   background-image: url('./media/prism-background.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+
   margin-left: 8px;
   margin-right: 16px;
-
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+/*MAIN PAGE LAYOUT*/
 
 .headerLayout {
   width: auto;
@@ -41,20 +43,14 @@ code {
   margin-bottom: 8px;
 }
 
+/*SINGLE LAYOUT ELEMENTS*/
+
 .title { 
   grid-area: title;
   align-content: center;
   text-align: center;
   font-size: calc(5px + 2vmin);
   vertical-align: center;
-  
-  
-  background: rgba( 255, 255, 255, 0.5 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4.5px );
-  -webkit-backdrop-filter: blur( 4.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .version { 
@@ -63,15 +59,6 @@ code {
   text-align: center;
   font-size: calc(5px + 2vmin);
   vertical-align: center;
-  
-  
-  background: rgba( 255, 255, 255, 0.5 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 4.5px );
-  -webkit-backdrop-filter: blur( 4.5px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
-
 }
 
 .sidebar { 
@@ -81,5 +68,3 @@ code {
 .body { 
   grid-area: body; 
 }
-
-

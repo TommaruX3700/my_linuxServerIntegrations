@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 //TODO: ADD react-draggable module to implement drag&drop features
 
 import './index.css';
+import './defaultApps.css';
 import GeneralOpsApp from './GeneralOps_App/GeneralOpsApp.js';
 import SpecMonitorApp from './SpecMonitor_App/SpecMonitor_App.js';
 import reportWebVitals from './reportWebVitals';
@@ -13,8 +14,8 @@ root.render(
   <React.StrictMode>
     
     <section class="headerLayout">
-      <div class="title">AdminPannel_WebApp</div>
-      <div class="version">Version: 0.0.0</div>
+      <div class="pannelGlassBackground title">AdminPannel_WebApp</div>
+      <div class="pannelGlassBackground version">Version: 0.0.0</div>
     </section>
     
     <section class="webAppLayout">

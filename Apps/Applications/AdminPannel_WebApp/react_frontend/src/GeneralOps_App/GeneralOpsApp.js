@@ -3,13 +3,11 @@ import './GeneralOpsApp.css';
 
 function GeneralOpsApp() {
   return (
-    <div className="GeneralOpsApp">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          GeneralOps_WebApp
-        </p>
-      </header>
+    <div className="pannelGlassBackground GeneralOpsApp">
+      <div className="App-header">
+        <img src={logo} className="testLogo" alt="logo" />
+        <p>GeneralOps_WebApp</p>
+      </div>
     </div>
   );
 }
