@@ -13,8 +13,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 
-  margin-left: 8px;
-  margin-right: 16px;
+  margin-left: 12px;
+  margin-right: 24px;
 }
 
 code {
@@ -28,9 +28,9 @@ code {
   height: auto;
   display: grid;
   grid: "title version" 1fr / 70% 30%;
-  gap: 8px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   
 }
 
@@ -39,8 +39,8 @@ code {
   height: auto;
   display: grid;
   grid: "sidebar body" 1fr / 30% 70%;
-  gap: 8px;
-  margin-bottom: 8px;
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
 /*SINGLE LAYOUT ELEMENTS*/

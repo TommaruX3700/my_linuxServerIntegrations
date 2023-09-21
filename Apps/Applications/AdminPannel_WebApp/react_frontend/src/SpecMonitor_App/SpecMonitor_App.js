@@ -4,8 +4,8 @@ import './SpecMonitor_App.css';
 function SpecMonitorApp() {
   return (
     <div className="pannelGlassBackground SpecMonitorApp">
-      <div className="App-header">
-        <img src={logo} className="testLogo" alt="logo" />
+      <div className="App-body">
+        <img src={logo} className="testLogo" alt="testLogo" />
         <p>SpecMonitor_WebApp</p>
       </div>
     </div>

@@ -4,8 +4,8 @@ import './GeneralOpsApp.css';
 function GeneralOpsApp() {
   return (
     <div className="pannelGlassBackground GeneralOpsApp">
-      <div className="App-header">
-        <img src={logo} className="testLogo" alt="logo" />
+      <div className="App-body">
+        <img src={logo} className="testLogo" alt="testLogo" />
         <p>GeneralOps_WebApp</p>
       </div>
     </div>

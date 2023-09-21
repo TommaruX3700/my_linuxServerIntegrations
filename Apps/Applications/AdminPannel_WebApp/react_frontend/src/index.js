@@ -9,13 +9,19 @@ import GeneralOpsApp from './GeneralOps_App/GeneralOpsApp.js';
 import SpecMonitorApp from './SpecMonitor_App/SpecMonitor_App.js';
 import reportWebVitals from './reportWebVitals';
 
+let version = () => {
+  //TODO: http request to backend for version
+  return "0.0.0"
+};
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
     <section class="headerLayout">
       <div class="pannelGlassBackground title">AdminPannel_WebApp</div>
-      <div class="pannelGlassBackground version">Version: 0.0.0</div>
+      <div class="pannelGlassBackground version">Version: {version()}</div>
     </section>
     
     <section class="webAppLayout">
