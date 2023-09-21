@@ -10,6 +10,12 @@ function GeneralOpsApp() {
         <p class="ops-header-text">GeneralOps</p>
       </section>
 
+      <div class="divider"></div>
+
+      <div className="App-body">
+        
+      </div>
+
     </div>
   );
 }

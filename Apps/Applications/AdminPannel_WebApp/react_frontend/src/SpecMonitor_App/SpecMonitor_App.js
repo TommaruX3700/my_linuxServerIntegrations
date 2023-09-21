@@ -10,9 +10,12 @@ function SpecMonitorApp() {
         <p class="monitor-header-text">SpecMonitor</p>
       </section>
 
+      <div class="divider"></div>
+      
       <div className="App-body">
         
       </div>
+      
     </div>
   );
 }

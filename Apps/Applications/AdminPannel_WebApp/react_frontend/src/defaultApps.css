@@ -24,4 +24,9 @@
     font-size: calc(5px + 2vmin);
     color: black;
   }
+
+  .divider {
+    border-top: 1px solid gray;
+    margin: 5px 0;
+  }
   
