@@ -7,7 +7,7 @@ function GeneralOpsApp() {
 
       <section class= "ops-header">
         <img src={logo} class="ops-header-icon testLogo" alt="testLogo" />
-        <p class="ops-header-text">GeneralOps_WebApp</p>
+        <p class="ops-header-text">GeneralOps</p>
       </section>
 
     </div>
