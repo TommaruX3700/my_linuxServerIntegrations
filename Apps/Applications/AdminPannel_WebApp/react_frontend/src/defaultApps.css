@@ -8,7 +8,7 @@
   }
 
   .testLogo {
-    height: 10vmin;
+    height: calc(4vmin + 2vmin);
     pointer-events: none;
   }
 

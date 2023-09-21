@@ -4,10 +4,12 @@ import './GeneralOpsApp.css';
 function GeneralOpsApp() {
   return (
     <div className="pannelGlassBackground GeneralOpsApp">
-      <div className="App-body">
-        <img src={logo} className="testLogo" alt="testLogo" />
-        <p>GeneralOps_WebApp</p>
-      </div>
+
+      <section class= "ops-header">
+        <img src={logo} class="ops-header-icon testLogo" alt="testLogo" />
+        <p class="ops-header-text">GeneralOps_WebApp</p>
+      </section>
+
     </div>
   );
 }

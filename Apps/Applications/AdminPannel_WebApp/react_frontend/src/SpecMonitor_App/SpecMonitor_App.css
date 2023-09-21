@@ -3,3 +3,23 @@
   height: 100vh;
 
   }
+
+  .monitor-header {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid: "monitor-header-icon monitor-header-text" 1fr / 30% 70%;
+    gap: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .monitor-header-icon {
+    grid-area: monitor-header-icon;
+    align-items: center;
+  }
+
+  .monitor-header-text {
+    grid-area: monitor-header-text;
+    align-items: center;
+  }

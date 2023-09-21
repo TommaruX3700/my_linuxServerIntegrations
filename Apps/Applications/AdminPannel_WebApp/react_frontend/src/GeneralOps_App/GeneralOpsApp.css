@@ -3,6 +3,25 @@
   height: 100vh;
 }
 
+.ops-header {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid: "ops-header-icon ops-header-text" 1fr / 30% 70%;
+    gap: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 
+.ops-header-icon {
+  grid-area: ops-header-icon;
+  align-items: center;
+
+}
+
+.ops-header-text {
+  grid-area: ops-header-text;
+  align-items: center;
+}
 
 
