@@ -1,12 +1,11 @@
 .SpecMonitorApp {
   text-align: center;
   height: 100vh;
-
-  }
+}
 
   .monitor-header {
     width: auto;
-    height: auto;
+    height: 10vmin;
     display: grid;
     grid: "monitor-header-icon monitor-header-text" 1fr / 30% 70%;
     gap: 10px;
@@ -16,10 +15,10 @@
 
   .monitor-header-icon {
     grid-area: monitor-header-icon;
-    align-items: center;
+    align-content: center;
   }
 
   .monitor-header-text {
     grid-area: monitor-header-text;
-    align-items: center;
+    /* align-items: center; */
   }

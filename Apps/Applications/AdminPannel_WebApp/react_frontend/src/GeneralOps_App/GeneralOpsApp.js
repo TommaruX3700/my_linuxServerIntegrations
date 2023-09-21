@@ -6,7 +6,7 @@ function GeneralOpsApp() {
     <div className="pannelGlassBackground GeneralOpsApp">
 
       <section class= "ops-header">
-        <img src={logo} class="ops-header-icon testLogo" alt="testLogo" />
+        <img src={logo} class="ops-header-icon testLogo" alt="logo" />
         <p class="ops-header-text">GeneralOps</p>
       </section>
 

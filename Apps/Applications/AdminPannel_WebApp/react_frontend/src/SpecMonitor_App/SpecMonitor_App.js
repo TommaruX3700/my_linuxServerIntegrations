@@ -6,7 +6,7 @@ function SpecMonitorApp() {
     <div className="pannelGlassBackground SpecMonitorApp">
 
       <section class= "monitor-header">
-        <img src={logo} class="monitor-header-icon testLogo" alt="testLogo" />
+        <img src={logo} class="monitor-header-icon testLogo" alt="logo"/>
         <p class="monitor-header-text">SpecMonitor</p>
       </section>
 
