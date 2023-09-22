@@ -8,8 +8,7 @@
   }
 
   .testLogo {
-    height: calc(4vmin + 2vmin);
-    /* height: auto; */
+    height: calc(6vmin);
     pointer-events: none;
   }
 
@@ -28,6 +27,6 @@
 
   .divider {
     border-top: 1px solid gray;
-    margin: 1px 25px;
+    margin: 1px 70px;
   }
   

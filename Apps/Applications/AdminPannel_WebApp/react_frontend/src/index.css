@@ -1,5 +1,4 @@
 body {
-  /* height: 100vh; */
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -9,12 +8,13 @@ body {
   height: auto;
 
   background-image: url('./media/prism-background.svg');
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
 
   margin-left: 12px;
   margin-right: 24px;
+  margin-bottom: 12px;
 }
 
 code {
@@ -31,12 +31,11 @@ code {
   gap: 12px;
   margin-top: 12px;
   margin-bottom: 12px;
-  
 }
 
 .webAppLayout {
   width: auto;
-  height: auto;
+  height: 100vmax;
   display: grid;
   grid: "sidebar body" 1fr / 30% 70%;
   gap: 12px;

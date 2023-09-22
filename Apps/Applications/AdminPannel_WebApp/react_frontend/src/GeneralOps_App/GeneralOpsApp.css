@@ -1,14 +1,14 @@
 .GeneralOpsApp {
   text-align: center;
-  height: 100vh;
+  height: fit-content;
 }
 
 .ops-header {
     width: auto;
-    height: 10vmin;
+    height: fit-content;
     display: grid;
     grid: "ops-header-icon ops-header-text" 1fr / 30% 70%;
-    gap: 10px;
+    align-items: center;
     margin-top: 2px;
     margin-bottom: 2px;
 }
@@ -20,7 +20,7 @@
 
 .ops-header-text {
   grid-area: ops-header-text;
-  /* align-items: center; */
+  font-size: calc(10px + 1vmin);
 }
 
 
