@@ -13,7 +13,10 @@ function SpecMonitorApp() {
       <div class="divider"></div>
       
       <div className="App-body">
-        
+        <section class= "monitor-field">
+          <div class="monitor-field-label">CPU:</div>
+          <div class="monitor-field-value"></div>
+        </section>
       </div>
       
     </div>
