@@ -1,6 +1,7 @@
 # my_Network_Code
 
-Collection of my network-based coding projects.
+Project based upon many other smaller project: the core concept is web development, using mostly MERN stack concept (MongoDB, Express.js, React and Node.js)
+I am planning to create APIs, web apps, and also usefull client-side scripts or tools.
 
 ## NB: 
 (In the index.js folder), launch Node.js scripts with
