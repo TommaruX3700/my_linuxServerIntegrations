@@ -1,11 +1,11 @@
 #software-projects 
 
-- [[Server_surveillance_script - PROJECT]]
+- [[myRaspyDatabaseAPI- PROJECT]]
 - [[APIs Architecture with NODE.JS - PROJECT]]
 - [[Versioning Deployment Software - PROJECT]]
 - [[myChat - PROJECT]]
 - [[AdminPannel_WebApp - PROJECT]]
-- [[EncryptedPipe - PROJECT]]
+
 
 ## TO SORT OUT:
 ---

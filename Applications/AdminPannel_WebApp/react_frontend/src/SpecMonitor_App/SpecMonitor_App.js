@@ -1,6 +1,15 @@
 import logo from '../media/logo.svg';
 import './SpecMonitor_App.css';
 
+/*TODO:
+  put these functions in external files:
+  - one for cryptografy
+  - one for http requests (choose how to handle requests)
+  - one for SPEC_Monitor data handling (info packages handling wrapping and unwrapping, when to do requests, how to the page based on results,
+    add dynamically html code)
+  - one for General Operations data handling (same as before)
+   */
+
 let cpuTemperature = (unit) => {
   let temp = 0.0;
   
@@ -42,31 +51,71 @@ function SpecMonitorApp() {
 
       <section class="monitor-field pannelGlassContentBackground">
           <div class="monitor-field-label">Mobo</div>
-          <div class="monitor-field-value">123</div>
+          <div class="monitor-field-value">[TODO]</div>
       </section>
 
       <section class="monitor-field pannelGlassContentBackground">
           <div class="monitor-field-label">GPU</div>
-          <div class="monitor-field-value">123</div>
+          <div class="monitor-field-value">[TODO]</div>
       </section>
 
       <section class="monitor-field pannelGlassContentBackground">
           <div class="monitor-field-label">Ambient</div>
-          <div class="monitor-field-value">123</div>
+          <div class="monitor-field-value">[TODO]</div>
       </section>
 
       <p>Status & Performance</p>
 
       <section class="monitor-field pannelGlassContentBackground">
           <div class="monitor-field-label">Power IN</div>
-          <div class="monitor-field-value">123</div>
+          <div class="monitor-field-value">[TODO]</div>
       </section>
 
       <section class="monitor-field pannelGlassContentBackground">
-          <div class="monitor-field-label">CPU</div>
-          <div class="monitor-field-value">123</div>
+          <div class="monitor-field-label">CPU details</div>
+          <div class="monitor-field-value">[TODO]</div>
+      </section>
+
+      <section class="monitor-field pannelGlassContentBackground">
+          <div class="monitor-field-label">CPU %</div>
+          <div class="monitor-field-value">[TODO]</div>
+      </section>
+
+      <section class="monitor-field pannelGlassContentBackground">
+          <div class="monitor-field-label">CPU Speed</div>
+          <div class="monitor-field-value">[TODO]</div>
+      </section>
+
+      <section class="monitor-field pannelGlassContentBackground">
+          <div class="monitor-field-label">Process n.</div>
+          <div class="monitor-field-value">[TODO]</div>
+      </section>
+
+      <section class="monitor-field pannelGlassContentBackground">
+          <div class="monitor-field-label">Process List</div>
+          <div class="monitor-field-value">[TODO]</div>
       </section>
       
+      <section class="monitor-field pannelGlassContentBackground">
+          <div class="monitor-field-label">RAM details</div>
+          <div class="monitor-field-value">[TODO]</div>
+      </section>
+
+      <section class="monitor-field pannelGlassContentBackground">
+          <div class="monitor-field-label">Used RAM</div>
+          <div class="monitor-field-value">[TODO]</div>
+      </section>
+
+      <section class="monitor-field pannelGlassContentBackground">
+          <div class="monitor-field-label">Free RAM</div>
+          <div class="monitor-field-value">[TODO]</div>
+      </section>
+
+      {/*
+        TODO: 
+          - add here function to SPEC_Monitor to add all other kind of infos based upon the received json.
+      */}
+
     </div>
   );
 }
@@ -74,16 +123,6 @@ function SpecMonitorApp() {
 export default SpecMonitorApp;
 
 /*TODO: 
-        - CPU name, cores and base speed
-        - CPU utilization
-        - CPU speed
-        - n of process running
-        - collassable process list (if possible)
-
-        - RAM name, dimensions and speed
-        - RAM utilization
-        - Free RAM
-
         -Network interfaces currently up
         -sent packages
         -received packages

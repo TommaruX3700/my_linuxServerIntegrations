@@ -11,7 +11,7 @@
             "id": "7990f1c450116276",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -151,13 +151,26 @@
   },
   "active": "7990f1c450116276",
   "lastOpenFiles": [
-    "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
-    "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
     "PLANNING/PROJECTS/Project-notes/APIs Architecture with NODE.JS - PROJECT.md",
     "PLANNING/PROJECTS/Software Projects.md",
+    "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
+    "Pasted image 20230925183354.png",
+    "Pasted image 20230925183343.png",
+    "Pasted image 20230925183332.png",
+    "Pasted image 20230925182947.png",
+    "Pasted image 20230925182938.png",
+    "PLANNING/KANBANS/SOFTWARE/myRaspyDatabaseAPI - KANBAN.md",
+    "Pasted image 20230925180018.png",
+    "Pasted image 20230925180004.png",
+    "PLANNING/PROJECTS/Project-notes/myRaspyDatabaseAPI- PROJECT.md",
+    "PLANNING/KANBANS/SOFTWARE/myRaspyAPI - KANBAN.md",
+    "DB&DATA_API - KANBAN.md",
+    "PLANNING/KANBANS/SOFTWARE/DB&DATA_API - KANBAN.md",
+    "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
+    "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp_BACKEND - PROJECT.md",
+    "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp_FRONTEND - PROJECT.md",
     "PLANNING/Project planning.md",
     "PLANNING/PROJECTS/Project-notes/Versioning Deployment Software - PROJECT.md",
-    "PLANNING/PROJECTS/Project-notes/Server_surveillance_script - PROJECT.md",
     "PLANNING/PROJECTS/Project-notes/myChat - PROJECT.md",
     "PLANNING/KANBANS/DEVICES/pi3 ~ DB and Services - KANBAN.md",
     "PLANNING/KANBANS/DEVICES/pi2 ~ NAS server - KANBAN.md",
@@ -165,11 +178,8 @@
     "README.md",
     "NET-GRAPH/NET-GRAPH.md",
     "PLANNING/KANBANS/SOFTWARE/Untitled Kanban.md",
-    "PLANNING/KANBANS/SOFTWARE/DB&DATA_API - KANBAN.md",
-    "PLANNING/KANBANS/SOFTWARE/TEST_API - KANBAN.md",
     "PLANNING/KANBANS/All tickets/Define API endpoints.md",
     "PLANNING/KANBANS/All tickets/Develop base API.md",
-    "PLANNING/KANBANS/All tickets/Define a LOG system.md",
-    "PLANNING/KANBANS/SOFTWARE/Server_surveillance - KANBAN.md"
+    "PLANNING/KANBANS/All tickets/Define a LOG system.md"
   ]
 }
