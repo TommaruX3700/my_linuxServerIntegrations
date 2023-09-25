@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2614f14ee96d4bcd",
+        "id": "b4a3335de78395c9",
         "type": "tabs",
         "children": [
           {
-            "id": "7990f1c450116276",
+            "id": "24555dd427fecfff",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 454.5
   },
   "right": {
     "id": "d62166287a98d5f5",
@@ -149,19 +148,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7990f1c450116276",
+  "active": "24555dd427fecfff",
   "lastOpenFiles": [
-    "PLANNING/PROJECTS/Project-notes/APIs Architecture with NODE.JS - PROJECT.md",
-    "PLANNING/PROJECTS/Software Projects.md",
     "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
-    "Pasted image 20230925183354.png",
-    "Pasted image 20230925183343.png",
-    "Pasted image 20230925183332.png",
+    "PLANNING/IMAGES/EncryptedPipeline_ScenSTANDARD.png",
+    "PLANNING/IMAGES/EncryptedPipeline_Scen0_B.png",
+    "PLANNING/IMAGES/EncryptedPipeline_Scen0_A.png",
     "Pasted image 20230925182947.png",
     "Pasted image 20230925182938.png",
-    "PLANNING/KANBANS/SOFTWARE/myRaspyDatabaseAPI - KANBAN.md",
     "Pasted image 20230925180018.png",
     "Pasted image 20230925180004.png",
+    "PLANNING/PROJECTS/Project-notes/APIs Architecture with NODE.JS - PROJECT.md",
+    "PLANNING/PROJECTS/Software Projects.md",
+    "PLANNING/KANBANS/SOFTWARE/myRaspyDatabaseAPI - KANBAN.md",
     "PLANNING/PROJECTS/Project-notes/myRaspyDatabaseAPI- PROJECT.md",
     "PLANNING/KANBANS/SOFTWARE/myRaspyAPI - KANBAN.md",
     "DB&DATA_API - KANBAN.md",

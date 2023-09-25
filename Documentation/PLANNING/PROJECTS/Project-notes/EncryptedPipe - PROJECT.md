@@ -11,8 +11,8 @@ RICHIESTE e RISPOSTE vanno criptate asseconda delle regole ben precise.
 ## RECUPERO CHIAVI:
 ---
 
-![[Pasted image 20230925183332.png]]
-![[Pasted image 20230925183343.png]]
+![[EncryptedPipeline_Scen0_A.png]]
+![[EncryptedPipeline_Scen0_B.png]]
 
 #### Quando si innesca il "cambio chiave"?
 - ad un det. orario
@@ -21,7 +21,7 @@ RICHIESTE e RISPOSTE vanno criptate asseconda delle regole ben precise.
 
 ## USO CLASSICO
 ---
-![[Pasted image 20230925183354.png]]
+![[EncryptedPipeline_ScenSTANDARD.png]]
 
 
 
