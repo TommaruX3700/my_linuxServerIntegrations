@@ -12,10 +12,6 @@ function GeneralOpsApp() {
 
       <div class="divider"></div>
 
-      <div className="App-body">
-        
-      </div>
-
     </div>
   );
 }

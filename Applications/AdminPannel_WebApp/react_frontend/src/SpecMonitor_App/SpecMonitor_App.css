@@ -27,10 +27,11 @@
     width: auto;
     height: fit-content;
     display: grid;
-    grid: "monitor-field-label monitor-field-value" 1fr/ 40% 60%;
+    grid: "monitor-field-label monitor-field-value" 1fr / 40% 60%;
     align-items: center;
     margin-top: 2px;
     margin-bottom: 2px;
+    gap: calc(2vmin + 2vmax);
   }
 
   .monitor-field-label {

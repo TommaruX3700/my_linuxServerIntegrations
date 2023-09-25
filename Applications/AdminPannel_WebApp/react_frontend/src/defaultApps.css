@@ -7,6 +7,15 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 
+  .pannelGlassContentBackground {
+    background: rgba(78, 75, 75, 0.199);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.527);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 251, 251, 0.267);
+  }
+
   .testLogo {
     height: calc(6vmin);
     pointer-events: none;
@@ -16,17 +25,9 @@
     color: #1b7eef;
   }
 
-  .App-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(5px + 2vmin);
-    color: black;
-  }
-
   .divider {
     border-top: 1px solid gray;
     margin: 1px 70px;
+    padding-bottom: 10px;
   }
   
