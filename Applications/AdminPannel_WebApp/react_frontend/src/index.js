@@ -12,7 +12,7 @@ import SpecMonitorApp from './SpecMonitor_App/SpecMonitor_App.js';
 import reportWebVitals from './reportWebVitals';
 
 let version = () => {
-  //TODO: http request to backend for version
+  //TODO: http request to backend for version to the version inside the backend "packade.json" file
   return "0.0.0"
 };
 
