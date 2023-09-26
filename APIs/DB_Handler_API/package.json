@@ -1,0 +1,11 @@
+{
+  "name": "db_handler_api",
+  "version": "1.0.0",
+  "description": "API to handle http requests to query for the related DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tmx37",
+  "license": "ISC"
+}

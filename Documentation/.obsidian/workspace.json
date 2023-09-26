@@ -11,8 +11,12 @@
             "id": "24555dd427fecfff",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 454.5
+    "width": 414.5,
+    "collapsed": true
   },
   "right": {
     "id": "d62166287a98d5f5",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md"
+              }
             }
           },
           {
