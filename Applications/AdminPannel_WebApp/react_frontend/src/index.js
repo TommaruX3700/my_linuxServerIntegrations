@@ -1,3 +1,5 @@
+/* TODO: base versioning upon "version" specified inside package.json */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 

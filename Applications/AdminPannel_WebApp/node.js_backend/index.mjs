@@ -1,3 +1,4 @@
+/* TODO: base versioning upon "version" specified inside package.json */
 import Express from 'express'
 
 const server = http.createServer((req, res) => {
