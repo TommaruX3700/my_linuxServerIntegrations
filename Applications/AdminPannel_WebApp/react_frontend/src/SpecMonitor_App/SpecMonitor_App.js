@@ -35,14 +35,4 @@ function SpecMonitorApp() {
 
 export default SpecMonitorApp;
 
-/*TODO: 
-        -Network interfaces currently up
-        -sent packages
-        -received packages
-        -static IP
-        -localhost name
-        
-        - If more than one disk is present, add info for each one of em, but evaluate how to do this
-        - If present, add GPU infos
-        */
         
