@@ -5,6 +5,8 @@
 function render () {
     return (
         <div>
+            <p>Infos</p>
+
             empty
         </div>
     );

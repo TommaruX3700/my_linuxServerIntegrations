@@ -21,6 +21,8 @@ let cpuTemperature = (unit) => {
 function render () {
     return (
         <div>
+            <p>Temps</p>
+        
             <select id="tempComboBox" name="temps">
                 <option value="c">Celsius</option>
                 <option value="f">Fahrenheit</option>

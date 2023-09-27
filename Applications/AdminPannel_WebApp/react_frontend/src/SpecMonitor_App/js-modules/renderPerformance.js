@@ -5,6 +5,8 @@
 function render () {
     return (
         <div>
+            <p>Status & Performance</p>
+
             <section class="monitor-field pannelGlassContentBackground">
                 <div class="monitor-field-label">Power IN</div>
                 <div class="monitor-field-value">[TODO]</div>

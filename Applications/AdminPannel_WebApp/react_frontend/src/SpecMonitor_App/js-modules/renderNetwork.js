@@ -12,6 +12,8 @@
 function render () {
     return (
         <div>
+            <p>Network</p>
+
             empty
         </div>
     );

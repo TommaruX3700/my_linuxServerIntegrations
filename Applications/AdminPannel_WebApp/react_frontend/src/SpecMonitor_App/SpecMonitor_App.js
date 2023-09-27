@@ -17,18 +17,11 @@ function SpecMonitorApp() {
 
       <div class="divider"></div>
       
-      <p>Temps</p>
-        <Temps/>
+      <Temps/>
+      <Performance/>
+      <Network/>
+      <Infos/>
       
-      <p>Status & Performance</p>
-        <Performance/>
-
-      <p>Network</p>
-        <Network/>
-
-      <p>Infos</p>
-        <Infos/>
-
     </div>
   );
 }
