@@ -5,6 +5,7 @@
 - [[Versioning Deployment Software - PROJECT]]
 - [[myChat - PROJECT]]
 - [[AdminPannel_WebApp - PROJECT]]
+- [[RioridinaSorterFotos - PROJECT]]
 
 
 ## TO SORT OUT:
