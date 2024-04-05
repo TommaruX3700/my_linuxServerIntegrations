@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tmaruzzo\\Documents\\VSCODE_repos\\my_Network_Code\\",
+  "Documents": [],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 82,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e78e0cf7-2e4e-48a7-bf7f-a94d9330a3be}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

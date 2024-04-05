@@ -2,7 +2,7 @@
     This is for rendering the header of the WebApp
 */
 
-import logo from '../media/logo.svg';
+import logo from '../../media/logo.svg';
 
 function render () {
     return (
