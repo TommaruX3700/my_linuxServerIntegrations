@@ -1,9 +1,9 @@
 TODO:
 	find out how to let certain clients from the network to connect to the other PIs, passing thought this one.
-a
+
 ---
 ## LOGS:
-sss
+
 PrinterPi Funziona!!!
 importante seguire la guida qui sotto passo per passo e fare un advanced routing.
 
