@@ -13,6 +13,6 @@ Gestisce il traffico locale tra servers: deve permettere la connessione tra clie
 ---
 
 Links to:
-- [[p1 - Network Manager]]
+- [[p1 - VPN and manager]]
 - [[p2 - DataServer]]
 -  [[Home Main Server]]

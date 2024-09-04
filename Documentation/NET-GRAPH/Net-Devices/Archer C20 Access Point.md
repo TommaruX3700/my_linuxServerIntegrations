@@ -15,7 +15,7 @@ Gestisce il traffico di rete dall'ISP ai dispositivi collegati, fa address reser
 #### DHCP Server ON: 
 - from 192.168.0.100 to 192.168.0.254
 - **Address Reservation**:
-	- [[p1 - Network Manager]] ~ 192.168.0.201 
+	- [[p1 - VPN and manager]] ~ 192.168.0.201 
 #### Forwarding: 
 - **Virtual Server**: OFF (used to public on the internet services presents on my LAN, usefull for services bootcamp etc..)
 - **Port Triggering**: OFF (used to open ports, give rules on 'em, like to grant a tunnel of communication for services etc, usefull for services bootcamp etc..)
@@ -29,7 +29,8 @@ Gestisce il traffico di rete dall'ISP ai dispositivi collegati, fa address reser
 Links to:
 - [[p3 - PrinterPi]]
 - [[p4 - SmartTv]]
-- [[p1 - Network Manager]]
+- [[p5 - HomeAssistant]]
+- [[p1 - VPN and manager]]
 - [[Home ~ 2,4GHz]]
 - [[Home ~ 5.0GHz]]
 - [[Guest ~ 2.4GHz]]

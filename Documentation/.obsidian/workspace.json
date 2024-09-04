@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "p4 - SmartTv.md",
+                "file": "PLANNING/PROJECTS/p4 - SmartTv.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "p4 - SmartTv.md",
+                "file": "PLANNING/PROJECTS/p4 - SmartTv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "p4 - SmartTv.md",
+                "file": "PLANNING/PROJECTS/p4 - SmartTv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "p4 - SmartTv.md"
+                "file": "PLANNING/PROJECTS/p4 - SmartTv.md"
               }
             }
           },
@@ -160,8 +160,10 @@
   },
   "active": "467c5890d9fb8202",
   "lastOpenFiles": [
+    "p5 - HomeAssistant.md",
     "NET-GRAPH/Net-Devices/Archer C20 Access Point.md",
-    "p4 - SmartTv.md",
+    "NET-GRAPH/Servers/p1 - VPN and manager.md",
+    "PLANNING/PROJECTS/p4 - SmartTv.md",
     "NET-GRAPH/Net-Devices/Managed Switch.md",
     "NET-GRAPH/Servers/p3 - PrinterPi.md",
     "[p3 - PrinterPi.md",
@@ -177,7 +179,6 @@
     "PLANNING/Notes/Linux Management.md",
     "PLANNING/Notes/Windows Management.md",
     "PLANNING/Notes/Notes.md",
-    "NET-GRAPH/Servers/p1 - Network Manager.md",
     "README.md",
     "PLANNING/Project planning.md",
     "PLANNING/PROJECTS/Software Projects.md",
@@ -185,7 +186,6 @@
     "PLANNING/PROJECTS/Project-notes/Network - PROJECT.md",
     "PLANNING/KANBANS/All tickets/Archer C20 5.0GHz - MAC Filtering only family devices.md",
     "PLANNING/KANBANS/All tickets/Archer C20 2.4GHz - MAC Filtering only family devices.md",
-    "PLANNING/KANBANS/All tickets/API versions deployment.md",
     "PLANNING/IMAGES/EncryptedPipeline_Scen0_A.png",
     "PLANNING/IMAGES/EncryptedPipeline_ScenSTANDARD.png",
     "PLANNING/IMAGES/EncryptedPipeline_Scen0_B.png",
