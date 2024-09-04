@@ -27,6 +27,8 @@ Gestisce il traffico di rete dall'ISP ai dispositivi collegati, fa address reser
 ---
 
 Links to:
+- [[p3 - PrinterPi]]
+- [[p4 - SmartTv]]
 - [[p1 - Network Manager]]
 - [[Home ~ 2,4GHz]]
 - [[Home ~ 5.0GHz]]

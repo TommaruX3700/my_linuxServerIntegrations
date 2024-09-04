@@ -15,5 +15,4 @@ Gestisce il traffico locale tra servers: deve permettere la connessione tra clie
 Links to:
 - [[p1 - Network Manager]]
 - [[p2 - DataServer]]
-- [[p3 - DB and Services]]
 -  [[Home Main Server]]
