@@ -11,8 +11,12 @@
             "id": "24555dd427fecfff",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PLANNING/KANBANS/All tickets/Set up bridge connection functionally and working.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 385.5
   },
   "right": {
     "id": "d62166287a98d5f5",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PLANNING/KANBANS/All tickets/Set up bridge connection functionally and working.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PLANNING/KANBANS/All tickets/Set up bridge connection functionally and working.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PLANNING/KANBANS/All tickets/Set up bridge connection functionally and working.md"
+              }
             }
           },
           {
@@ -127,7 +135,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -150,38 +160,38 @@
   },
   "active": "24555dd427fecfff",
   "lastOpenFiles": [
-    "PLANNING/PROJECTS/Project-notes/RioridinaSorterFotos - PROJECT.md",
-    "PLANNING/PROJECTS/Software Projects.md",
+    "PLANNING/KANBANS/DEVICES/pi1 ~ Network Manager - KANBAN.md",
+    "PLANNING/PROJECTS/Project-notes/pi1 ~ Network Manager - PROJECT.md",
+    "PLANNING/PROJECTS/Project-notes/pi3 ~ DB and Services - PROJECT.md",
+    "PLANNING/Notes/Linux Management/Raspy Networking.md",
+    "PLANNING/Notes/Linux Management/Raspy first time boot config procedure.md",
+    "PLANNING/KANBANS/All tickets/Set up bridge connection functionally and working.md",
+    "PLANNING/PROJECTS/Project-notes/pi2 ~ DATA server - PROJECT.md",
+    "PLANNING/Notes/Linux Management/Packages management.md",
+    "PLANNING/Notes/Linux Management.md",
+    "PLANNING/Notes/Windows Management.md",
+    "PLANNING/Notes/Notes.md",
     "NET-GRAPH/Servers/p1 - Network Manager.md",
-    "PLANNING/KANBANS/All tickets/Define API endpoints.md",
-    "PLANNING/KANBANS/SOFTWARE/myRaspyAPI - KANBAN.md",
-    "PLANNING/KANBANS/SOFTWARE/myRaspyDatabaseAPI - KANBAN.md",
-    "PLANNING/PROJECTS/Project-notes/APIs Architecture with NODE.JS - PROJECT.md",
-    "PLANNING/PROJECTS/Project-notes/myRaspyDatabaseAPI- PROJECT.md",
+    "NET-GRAPH/Net-Devices/Managed Switch.md",
+    "README.md",
+    "DB&DATA_API - KANBAN.md",
     "PLANNING/Project planning.md",
-    "NET-GRAPH/Net-Devices/Net Connections/Guest ~ 2.4GHz.md",
+    "PLANNING/PROJECTS/Software Projects.md",
+    "PLANNING/PROJECTS/Hardware Projects.md",
+    "PLANNING/PROJECTS/Project-notes/Network - PROJECT.md",
+    "PLANNING/KANBANS/All tickets/Archer C20 5.0GHz - MAC Filtering only family devices.md",
+    "PLANNING/KANBANS/All tickets/Archer C20 2.4GHz - MAC Filtering only family devices.md",
+    "PLANNING/KANBANS/All tickets/API versions deployment.md",
+    "PLANNING/IMAGES/EncryptedPipeline_Scen0_A.png",
+    "NET-GRAPH/Clients/Cellulari e altri dispositivi.md",
     "NET-GRAPH/Clients/Guest clients.md",
-    "PLANNING/PROJECTS/Project-notes/EncryptedPipe - PROJECT.md",
+    "NET-GRAPH/Clients/Home Clients.md",
+    "NET-GRAPH/Clients/PC Andrea.md",
     "PLANNING/IMAGES/EncryptedPipeline_ScenSTANDARD.png",
     "PLANNING/IMAGES/EncryptedPipeline_Scen0_B.png",
-    "PLANNING/IMAGES/EncryptedPipeline_Scen0_A.png",
     "Pasted image 20230925182947.png",
     "Pasted image 20230925182938.png",
     "Pasted image 20230925180018.png",
-    "Pasted image 20230925180004.png",
-    "DB&DATA_API - KANBAN.md",
-    "PLANNING/KANBANS/SOFTWARE/DB&DATA_API - KANBAN.md",
-    "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp - PROJECT.md",
-    "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp_BACKEND - PROJECT.md",
-    "PLANNING/PROJECTS/Project-notes/AdminPannel_WebApp_FRONTEND - PROJECT.md",
-    "PLANNING/PROJECTS/Project-notes/Versioning Deployment Software - PROJECT.md",
-    "PLANNING/PROJECTS/Project-notes/myChat - PROJECT.md",
-    "PLANNING/KANBANS/DEVICES/pi3 ~ DB and Services - KANBAN.md",
-    "PLANNING/KANBANS/DEVICES/pi2 ~ NAS server - KANBAN.md",
-    "PLANNING/KANBANS/All tickets/Set up Static IP.md",
-    "README.md",
-    "NET-GRAPH/NET-GRAPH.md",
-    "PLANNING/KANBANS/SOFTWARE/Untitled Kanban.md",
-    "PLANNING/KANBANS/All tickets/Develop base API.md"
+    "Pasted image 20230925180004.png"
   ]
 }

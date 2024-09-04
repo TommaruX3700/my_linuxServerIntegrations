@@ -1,4 +1,4 @@
-All static and network configuration is preferred on /etc/dhcpcd.conf instad of /etc/network/interfaces
+All static and network configuration is preferred on /etc/dhcpcd.conf instead of /etc/network/interfaces
 
 ---
 

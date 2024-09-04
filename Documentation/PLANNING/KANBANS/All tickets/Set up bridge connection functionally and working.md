@@ -1,8 +1,14 @@
 TODO:
 	find out how to let certain clients from the network to connect to the other PIs, passing thought this one.
-
+a
 ---
 ## LOGS:
+sss
+PrinterPi Funziona!!!
+importante seguire la guida qui sotto passo per passo e fare un advanced routing.
+
+## NB: DNSMASQ È UN PACCHETTO FONDAMENTALE
+https://www.elementzonline.com/blog/sharing-or-bridging-internet-to-ethernet-from-wifi-raspberry-pI
 
 ##### 04/09/2023 7:20PM
 Funziona tutto: ora sono in grado di pingare dal mio client pc tutti i servers.
