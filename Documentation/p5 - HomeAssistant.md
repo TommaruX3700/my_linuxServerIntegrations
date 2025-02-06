@@ -14,3 +14,9 @@ necessario led di feedback per quando sta ascoltando
 necessario microfono decente
 necessaria cassa
 https://www.home-assistant.io/integrations/picotts/
+
+
+user:
+tmx37
+psw:
+pi43215

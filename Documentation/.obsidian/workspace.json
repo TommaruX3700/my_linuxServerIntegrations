@@ -11,12 +11,17 @@
             "id": "467c5890d9fb8202",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "PLANNING/PROJECTS/p4 - SmartTv.md",
-                "mode": "source",
-                "source": false
-              }
+                "file": "old/GeneralPlan.canvas",
+                "viewState": {
+                  "x": -399.52791525532035,
+                  "y": 2428.8344059121177,
+                  "zoom": -0.8517868123675651
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "GeneralPlan"
             }
           }
         ]
@@ -39,7 +44,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +61,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +71,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PLANNING/PROJECTS/p4 - SmartTv.md",
+                "file": "old/GeneralPlan.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +104,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for GeneralPlan"
             }
           },
           {
@@ -102,10 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PLANNING/PROJECTS/p4 - SmartTv.md",
+                "file": "old/GeneralPlan.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from GeneralPlan"
             }
           },
           {
@@ -116,7 +131,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +142,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PLANNING/PROJECTS/p4 - SmartTv.md"
-              }
+                "file": "old/GeneralPlan.canvas"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of GeneralPlan"
             }
           },
           {
@@ -138,7 +157,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -160,12 +181,15 @@
   },
   "active": "467c5890d9fb8202",
   "lastOpenFiles": [
-    "p5 - HomeAssistant.md",
-    "NET-GRAPH/Net-Devices/Archer C20 Access Point.md",
-    "NET-GRAPH/Servers/p1 - VPN and manager.md",
-    "PLANNING/PROJECTS/p4 - SmartTv.md",
-    "NET-GRAPH/Net-Devices/Managed Switch.md",
     "NET-GRAPH/Servers/p3 - PrinterPi.md",
+    "NET-GRAPH/Servers/Home Main Server.md",
+    "NET-GRAPH/NET-GRAPH.md",
+    "NET-GRAPH/Servers/p2 - DataServer.md",
+    "NET-GRAPH/Servers/p1 - VPN and manager.md",
+    "p5 - HomeAssistant.md",
+    "PLANNING/PROJECTS/p4 - SmartTv.md",
+    "NET-GRAPH/Net-Devices/Archer C20 Access Point.md",
+    "NET-GRAPH/Net-Devices/Managed Switch.md",
     "[p3 - PrinterPi.md",
     "DB&DATA_API - KANBAN.md",
     "PLANNING/KANBANS/All tickets/Set up bridge connection functionally and working.md",
@@ -183,9 +207,6 @@
     "PLANNING/Project planning.md",
     "PLANNING/PROJECTS/Software Projects.md",
     "PLANNING/PROJECTS/Hardware Projects.md",
-    "PLANNING/PROJECTS/Project-notes/Network - PROJECT.md",
-    "PLANNING/KANBANS/All tickets/Archer C20 5.0GHz - MAC Filtering only family devices.md",
-    "PLANNING/KANBANS/All tickets/Archer C20 2.4GHz - MAC Filtering only family devices.md",
     "PLANNING/IMAGES/EncryptedPipeline_Scen0_A.png",
     "PLANNING/IMAGES/EncryptedPipeline_ScenSTANDARD.png",
     "PLANNING/IMAGES/EncryptedPipeline_Scen0_B.png",
